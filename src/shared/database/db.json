@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "pname": "Gold Bangle",
+      "price": "5000",
+      "brand": "Jewels",
+      "quantity": "15",
+      "description": "Elegant 22-carat gold bangle, perfect for any occasion.",
+      "imageUrl": "https://example.com/images/gold-bangle.jpg",
+      "Brand": "lalitha",
+      "Quantity": "3"
+    },
+    {
+      "id": "2",
+      "pname": "Diamond Pendant",
+      "price": "5000",
+      "brand": "Jewels",
+      "quantity": "8",
+      "description": "A stunning diamond pendant that adds sparkle to your style.",
+      "imageUrl": "https://example.com/images/diamond-pendant.jpg",
+      "Brand": "kalyan",
+      "Quantity": "10"
+    },
+    {
+      "id": "3",
+      "pname": "Sapphire Ring",
+      "price": "3000",
+      "brand": "Jewels",
+      "quantity": "5",
+      "description": "Beautifully crafted sapphire ring for elegance and grace.",
+      "imageUrl": "https://example.com/images/sapphire-ring.jpg"
+    },
+    {
+      "id": "4",
+      "pname": "Ruby Necklace",
+      "price": "4500",
+      "brand": "Jewels",
+      "quantity": "10",
+      "description": "A breathtaking ruby necklace, adding class and charm.",
+      "imageUrl": "https://example.com/images/ruby-necklace.jpg"
+    },
+    {
+      "id": "5",
+      "pname": "Silver Anklet",
+      "price": "1200",
+      "brand": "Jewels",
+      "quantity": "20",
+      "description": "Trendy silver anklet to complement your elegance.",
+      "imageUrl": "https://example.com/images/silver-anklet.jpg"
+    },
+    {
+      "id": "6",
+      "pname": "Gold Earrings",
+      "price": "1500",
+      "brand": "Jewels",
+      "quantity": "12",
+      "description": "Stylish gold earrings that go with every outfit.",
+      "imageUrl": "https://example.com/images/gold-earrings.jpg"
+    },
+    {
+      "id": "7",
+      "pname": "Platinum Bracelet",
+      "price": "5000",
+      "brand": "Jewels",
+      "quantity": "6",
+      "description": "Luxurious platinum bracelet with timeless elegance.",
+      "imageUrl": "https://example.com/images/platinum-bracelet.jpg"
+    },
+    {
+      "id": "8",
+      "pname": "Onyx Cuff Bracelet",
+      "price": "3200",
+      "brand": "Jewels",
+      "quantity": "9",
+      "description": "Sleek onyx cuff bracelet, a symbol of sophistication.",
+      "imageUrl": "https://example.com/images/onyx-cuff.jpg"
+    },
+    {
+      "id": "9",
+      "pname": "Turquoise Earrings",
+      "price": "1800",
+      "brand": "Jewels",
+      "quantity": "14",
+      "description": "Turquoise earrings with a vibrant and stunning look.",
+      "imageUrl": "https://example.com/images/turquoise-earrings.jpg"
+    },
+    {
+      "id": "4569",
+      "pname": "Necklace",
+      "price": "50000",
+      "brand": "Lalitha",
+      "quantity": "2",
+      "description": "Nice Jewelery with low price",
+      "imageUrl": "",
+      "Brand": "kanishq",
+      "Quantity": "20"
+    }
+  ]
+}
