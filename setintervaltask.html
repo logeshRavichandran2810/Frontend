@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .tab{
+        border: 3px solid black;
+        height:650px;
+        width: 300px;
+        padding: 30px;display: grid;
+        align-items: center;
+        justify-content:center ;
+        margin:auto;
+    }
+    #r{
+        border: 2px solid black;
+        /* background-color: red; */
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        box-shadow: 2px 0px 10px 5px gray;
+    }
+    #y{
+        border: 2px solid black;
+        /* background-color:yellow; */
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        box-shadow: 2px 0px 10px 5px gray;
+    }
+    #g{
+        border: 2px solid black;
+        /* background-color:green; */
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        box-shadow: 2px 0px 10px 5px gray;
+    }
+
+</style>
+<body>
+    <div class="tab">
+    <div id="r"></div>
+    <div id="y"></div>
+    <div id="g"></div>
+    </div>
+
+    <script>
+     function stop(){
+     document.getElementById("r").style.backgroundColor="red";
+     document.getElementById("y").style.backgroundColor="white";
+     document.getElementById("g").style.backgroundColor="white";
+     setTimeout(ready,3000);
+    }
+    function ready(){
+     document.getElementById("r").style.backgroundColor="white";
+     document.getElementById("y").style.backgroundColor="yellow";
+     document.getElementById("g").style.backgroundColor="white";
+     setTimeout(go,3000);
+    }
+    function go(){
+     document.getElementById("r").style.backgroundColor="white";
+     document.getElementById("y").style.backgroundColor="white";
+     document.getElementById("g").style.backgroundColor="green";
+     setTimeout(stop,3000);
+    }
+    stop();
+
+    // setInterval(a,3000);
+    // setInterval(b,6000);
+    // setInterval(c,7000);
+    </script>
+</body>
+</html>
